@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		5507FC021E72C3E300AA82FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5507FC011E72C3E300AA82FE /* main.m */; };
 		5507FC051E72C3E300AA82FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5507FC041E72C3E300AA82FE /* AppDelegate.m */; };
-		5507FC081E72C3E300AA82FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5507FC071E72C3E300AA82FE /* ViewController.m */; };
 		5507FC0B1E72C3E300AA82FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5507FC091E72C3E300AA82FE /* Main.storyboard */; };
 		5507FC0D1E72C3E300AA82FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5507FC0C1E72C3E300AA82FE /* Assets.xcassets */; };
 		5507FC101E72C3E300AA82FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5507FC0E1E72C3E300AA82FE /* LaunchScreen.storyboard */; };
+		5595896A1E72CF100056920F /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 559589691E72CF100056920F /* topic_news.json */; };
+		559589701E72D1710056920F /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5595896F1E72D1710056920F /* HomeController.m */; };
+		559589731E72DA810056920F /* ChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 559589721E72DA810056920F /* ChannelModel.m */; };
+		559589761E72DFC20056920F /* channelLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 559589751E72DFC20056920F /* channelLabel.m */; };
+		CDA31594C37CB06105CDA20C /* libPods-NetNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8567586D73A89D8EC9FD8A /* libPods-NetNews.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,20 @@
 		5507FC011E72C3E300AA82FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5507FC031E72C3E300AA82FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5507FC041E72C3E300AA82FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5507FC061E72C3E300AA82FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5507FC071E72C3E300AA82FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5507FC0A1E72C3E300AA82FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5507FC0C1E72C3E300AA82FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5507FC0F1E72C3E300AA82FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5507FC111E72C3E300AA82FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559589691E72CF100056920F /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		5595896E1E72D1710056920F /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		5595896F1E72D1710056920F /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		559589711E72DA810056920F /* ChannelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelModel.h; sourceTree = "<group>"; };
+		559589721E72DA810056920F /* ChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelModel.m; sourceTree = "<group>"; };
+		559589741E72DFC20056920F /* channelLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = channelLabel.h; sourceTree = "<group>"; };
+		559589751E72DFC20056920F /* channelLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = channelLabel.m; sourceTree = "<group>"; };
+		DB606D467DE11F28568E77A0 /* Pods-NetNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetNews/Pods-NetNews.release.xcconfig"; sourceTree = "<group>"; };
+		EF8567586D73A89D8EC9FD8A /* libPods-NetNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NetNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92D188C7288EE09993F55E1 /* Pods-NetNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetNews/Pods-NetNews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA31594C37CB06105CDA20C /* libPods-NetNews.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50FAD959AB293A433721F0C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F92D188C7288EE09993F55E1 /* Pods-NetNews.debug.xcconfig */,
+				DB606D467DE11F28568E77A0 /* Pods-NetNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5507FBF41E72C3E300AA82FE = {
 			isa = PBXGroup;
 			children = (
 				5507FBFF1E72C3E300AA82FE /* NetNews */,
 				5507FBFE1E72C3E300AA82FE /* Products */,
+				50FAD959AB293A433721F0C5 /* Pods */,
+				66E49347DE4A1BBF05134656 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +82,13 @@
 		5507FBFF1E72C3E300AA82FE /* NetNews */ = {
 			isa = PBXGroup;
 			children = (
+				559589601E72CCF50056920F /* CLasses */,
 				5507FC031E72C3E300AA82FE /* AppDelegate.h */,
 				5507FC041E72C3E300AA82FE /* AppDelegate.m */,
-				5507FC061E72C3E300AA82FE /* ViewController.h */,
-				5507FC071E72C3E300AA82FE /* ViewController.m */,
 				5507FC091E72C3E300AA82FE /* Main.storyboard */,
 				5507FC0C1E72C3E300AA82FE /* Assets.xcassets */,
 				5507FC0E1E72C3E300AA82FE /* LaunchScreen.storyboard */,
+				559589691E72CF100056920F /* topic_news.json */,
 				5507FC111E72C3E300AA82FE /* Info.plist */,
 				5507FC001E72C3E300AA82FE /* Supporting Files */,
 			);
@@ -79,6 +103,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		559589601E72CCF50056920F /* CLasses */ = {
+			isa = PBXGroup;
+			children = (
+				559589611E72CCF50056920F /* Home */,
+			);
+			path = CLasses;
+			sourceTree = "<group>";
+		};
+		559589611E72CCF50056920F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				559589621E72CCF50056920F /* Contrller */,
+				559589631E72CCF50056920F /* Model */,
+				559589641E72CCF50056920F /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		559589621E72CCF50056920F /* Contrller */ = {
+			isa = PBXGroup;
+			children = (
+				5595896E1E72D1710056920F /* HomeController.h */,
+				5595896F1E72D1710056920F /* HomeController.m */,
+			);
+			path = Contrller;
+			sourceTree = "<group>";
+		};
+		559589631E72CCF50056920F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				559589711E72DA810056920F /* ChannelModel.h */,
+				559589721E72DA810056920F /* ChannelModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		559589641E72CCF50056920F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				559589741E72DFC20056920F /* channelLabel.h */,
+				559589751E72DFC20056920F /* channelLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66E49347DE4A1BBF05134656 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF8567586D73A89D8EC9FD8A /* libPods-NetNews.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5507FC141E72C3E300AA82FE /* Build configuration list for PBXNativeTarget "NetNews" */;
 			buildPhases = (
+				CEB6C83B05136C597865533D /* [CP] Check Pods Manifest.lock */,
 				5507FBF91E72C3E300AA82FE /* Sources */,
 				5507FBFA1E72C3E300AA82FE /* Frameworks */,
 				5507FBFB1E72C3E300AA82FE /* Resources */,
+				B442132E4E03C93A095ECF38 /* [CP] Embed Pods Frameworks */,
+				F12DE8506A348DAD730FEE8C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,20 +219,71 @@
 			files = (
 				5507FC101E72C3E300AA82FE /* LaunchScreen.storyboard in Resources */,
 				5507FC0D1E72C3E300AA82FE /* Assets.xcassets in Resources */,
+				5595896A1E72CF100056920F /* topic_news.json in Resources */,
 				5507FC0B1E72C3E300AA82FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B442132E4E03C93A095ECF38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetNews/Pods-NetNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEB6C83B05136C597865533D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F12DE8506A348DAD730FEE8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetNews/Pods-NetNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5507FBF91E72C3E300AA82FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5507FC081E72C3E300AA82FE /* ViewController.m in Sources */,
 				5507FC051E72C3E300AA82FE /* AppDelegate.m in Sources */,
+				559589701E72D1710056920F /* HomeController.m in Sources */,
 				5507FC021E72C3E300AA82FE /* main.m in Sources */,
+				559589731E72DA810056920F /* ChannelModel.m in Sources */,
+				559589761E72DFC20056920F /* channelLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +401,7 @@
 		};
 		5507FC151E72C3E300AA82FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92D188C7288EE09993F55E1 /* Pods-NetNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NetNews/Info.plist;
@@ -281,6 +413,7 @@
 		};
 		5507FC161E72C3E300AA82FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB606D467DE11F28568E77A0 /* Pods-NetNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NetNews/Info.plist;
@@ -309,6 +442,7 @@
 				5507FC161E72C3E300AA82FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
